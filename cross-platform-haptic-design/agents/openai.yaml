@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cross-Platform Haptic Design"
+  short_description: "Design coherent Apple and Meta haptics"
+  default_prompt: "Use $cross-platform-haptic-design to design or review this haptic feedback experience."
