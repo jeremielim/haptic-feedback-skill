@@ -7,7 +7,15 @@ A collection of agent skills for creative strategy and cross-platform product de
 ## Install
 
 ```bash
-npx skills add jeremielim/skills --skill <skill-name>
+npx skills@latest add jeremielim/skills
+```
+
+To install one skill, use its exact name:
+
+```bash
+npx skills@latest add jeremielim/skills --skill cross-platform-haptic-design
+npx skills@latest add jeremielim/skills --skill game-designer
+npx skills@latest add jeremielim/skills --skill naming
 ```
 
 ## Skills
