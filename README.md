@@ -10,8 +10,8 @@ A collection of agent skills for creative strategy and cross-platform product de
 npx skills add jeremielim/skills --skill <skill-name>
 ```
 
-Available skills:
+## Skills
 
-- `cross-platform-haptic-design` — Design and review Apple and Meta Horizon OS haptics.
-- `game-designer` — Develop an original game with the URF Academy game-design framework.
-- `naming` — Generate, assess, and validate names for brands, products, and design systems.
+- [`cross-platform-haptic-design`](skills/cross-platform-haptic-design/SKILL.md) — Design and review Apple and Meta Horizon OS haptics.
+- [`game-designer`](skills/game-designer/SKILL.md) — Develop an original game with the URF Academy game-design framework.
+- [`naming`](skills/naming/SKILL.md) — Generate, assess, and validate names for brands, products, and design systems.
