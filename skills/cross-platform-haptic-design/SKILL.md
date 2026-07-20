@@ -5,7 +5,7 @@ description: Design, implement, or review haptic feedback for Apple platforms an
 
 # Cross-Platform Haptic Design
 
-Design haptics as semantic, multimodal feedback, not isolated vibration effects.
+Design haptics as semantic, multimodal feedback integrated with the interaction.
 
 Read [references/best-practices.md](references/best-practices.md) before proposing, implementing, or reviewing a haptic system.
 
@@ -21,6 +21,8 @@ Read [references/best-practices.md](references/best-practices.md) before proposi
 8. Test on every supported physical device; do not approve haptics from a simulator, waveform, or audio approximation alone.
 9. Document the chosen mapping, parameter range, cancellation behavior, fallback, and test status.
 
+Complete the workflow only when every proposed effect has a documented specification and an explicit physical-device status: `passed`, `failed`, or `pending`. When hardware is unavailable, provide the test plan and mark approval as pending rather than implying that tactile behavior was validated.
+
 ## Output
 
 For a design request, provide:
@@ -35,4 +37,4 @@ For a design request, provide:
 
 For a review, rank issues by ambiguity, synchronization, semantic inconsistency, fatigue risk, accessibility, and hardware risk. Distinguish shared principles from platform-specific constraints.
 
-Do not claim different actuators will feel identical. Preserve semantic equivalence while tuning output for each device.
+Describe cross-platform effects as semantically equivalent adaptations tuned for each actuator, and state the expected differences in physical feel.
