@@ -3,7 +3,8 @@ name: game-designer
 description: >
   Guide original game design with the Riot Games URF Academy Game Design Framework. Use when creating
   or iterating a game premise, player experience, goals, opposition, rules, theme, mechanics, or game
-  design document, including work based on uploaded URF Academy modules.
+  design document, including work based on uploaded URF Academy modules. Do not use for game-engine
+  implementation, production planning, or generic creative writing unless game-design decisions are in scope.
 ---
 
 # Game Designer Skill
@@ -20,16 +21,19 @@ A game has these core components, in order:
 PLAYER → GOAL → DECISIONS / OPPOSITION → RULES → THEME → INTERACTION
 ```
 
-For a new game, work through these components sequentially. For an existing design or a focused
-request, enter at the earliest incomplete relevant phase instead of restarting from Phase 1.
+For a new game, normally work through these components sequentially. For an existing design or a
+focused request, enter at the earliest relevant phase instead of restarting from Phase 1. Draft the
+requested artifact when the available context supports it, and label assumptions instead of blocking on
+non-critical unknowns.
 
 ---
 
 ## Phase Flow
 
 Select the starting phase from the user's request and any supplied design artifacts. Read the active
-phase reference before asking questions or producing its deliverable. Advance only when every field
-in that phase's summary block has a specific answer; label unresolved assumptions explicitly.
+phase reference before producing its deliverable. Ask a focused question only when a missing decision
+would materially change that deliverable; otherwise label a reasonable assumption. A phase is ready to
+advance when its summary fields are specific or explicitly marked as assumptions or open questions.
 
 ### Phase 1 — Player & Game Feeling
 For a new concept or unclear target experience, read [references/phase1-player.md](references/phase1-player.md).
@@ -47,14 +51,14 @@ For rules, theme, narrative, resonance, or complexity, read [references/phase4-r
 For player actions, interaction, asymmetry, mechanics, or prototype scope, read [references/phase5-interaction.md](references/phase5-interaction.md).
 
 ### Phase 6 — Final Output Generation
-When Phases 1–5 are complete or the user requests a design document, read [references/phase6-output.md](references/phase6-output.md).
+When Phases 1–5 are complete or the user requests the complete design package, read [references/phase6-output.md](references/phase6-output.md). For a specific document, produce that document from the relevant completed phases and label gaps.
 
 ---
 
 ## Core Principles (Apply Throughout)
 
-**One question at a time.** Ask one focused question, wait for the answer, then reflect it back and
-continue.
+**Question only when needed.** Ask one focused question at a time when it would materially improve the
+next decision. Otherwise make the requested progress and label assumptions.
 
 **Summarize before advancing.** Before moving to the next phase, write a brief "Here's what we
 have so far:" block so the user can correct anything.
@@ -73,6 +77,10 @@ your mechanics questions should lean toward depth and mastery).
 **Design vocabulary.** Use the correct terms naturally: types of fun, game feeling, core game
 loop, depth, complexity, elegance, resonance, piggybacking, anti-patterns, flow state. Define
 them briefly the first time you use each one.
+
+**Source fidelity.** Treat these references as an adaptation of the URF Academy framework. When the
+user supplies URF Academy material, treat it as the source of truth and do not attribute a claim to the
+framework unless it is supported by that material or a linked reference.
 
 ---
 

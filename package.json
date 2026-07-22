@@ -1,0 +1,7 @@
+{
+  "name": "jeremies-skills",
+  "private": true,
+  "scripts": {
+    "test:skills": "node scripts/validate-evals.mjs"
+  }
+}

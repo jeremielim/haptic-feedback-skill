@@ -1,0 +1,4 @@
+interface:
+  display_name: "Craft Agent Skills"
+  short_description: "Create lean, testable agent skills"
+  default_prompt: "Use $craft-agent-skills to create or improve an agent skill and its evaluation plan."

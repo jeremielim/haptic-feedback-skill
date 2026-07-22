@@ -6,21 +6,20 @@
 
 ## The Core Principle
 
-Most early-stage founders overvalue the .com. It lends legitimacy, yes — but it's rarely the silver bullet. Don't burn seed capital on domain purity.
+Treat domain choice as one input to the naming decision, not proof that a name is viable. Domain prices,
+TLD conventions, registrar policies, and handle availability change; verify them at decision time.
 
 ---
 
 ## TLD Strategy
 
-**Try in order:**
-1. Full name in `.com` first
-2. `.net` — underrated, early internet credibility, tends to be affordable
-3. `.co` — reads as a fallback when .com isn't available, use cautiously
-4. Category-specific TLDs — signal focus better than .co:
+**Evaluate:**
+1. The exact `.com` when it matters to the audience or category
+2. Relevant established or category-specific TLDs, considering cost, renewal terms, trust, and confusion risk:
    - Tech/AI: `.io`, `.ai`, `.dev`, `.cloud`
    - Creative: `.studio`, `.art`
    - Finance: `.vc`, `.capital`, `.fund`
-5. Geographic: `.nyc`, `.ca`, `.us`, `.fr` (if location is part of the brand)
+3. Geographic TLDs such as `.nyc`, `.ca`, `.us`, or `.fr` when location is part of the brand
 
 ---
 
@@ -51,22 +50,23 @@ When the .com isn't available, these feel natural in most categories:
 
 - **B2B/SaaS/ecommerce** — Brand memorability matters more than exact handle match. Content > handle precision (especially on TikTok, where successful brands run hundreds of handles).
 - **Fashion, art, beauty, lifestyle** — A perfect Instagram/TikTok handle carries outsized weight. Worth prioritizing.
-- **General rule** — Secure handles on all major platforms the same day you decide, even if you won't use them immediately.
+- **General rule** — Identify the channels that matter, then verify availability and impersonation risk on each current platform before acting.
 
 ---
 
 ## Acquiring Premium Domains
 
-- Real-word .com domains often cost six to seven figures
-- Acquisition is usually brokered through opaque processes (DAN.com, Sedo, private brokers)
-- Unless your business depends heavily on direct-to-consumer online traffic or extreme trust signals, this is a later problem — not a launch blocker
+- Prices, marketplaces, and broker practices change. Record the registrar or marketplace, quoted price,
+  renewal terms, and date checked before comparing acquisition options.
+- Treat a premium domain as a tradeoff against audience, trust, budget, and launch needs—not an automatic
+  requirement or automatic deferral.
 
 ---
 
 ## Practical Domain Checklist (Phase 4.3)
 
-- [ ] Check exact .com — note availability and any broker price
-- [ ] Check .net, .io, .ai as fallbacks
+- [ ] Check the exact `.com` and relevant TLDs — note availability, quoted price, source, and date checked
+- [ ] Check relevant alternatives such as `.net`, `.io`, or `.ai` when they fit the audience and category
 - [ ] Identify 2–3 modifier variants that feel natural with the name
-- [ ] Run social handle check (Namechk.com is a quick multi-platform tool)
-- [ ] Confirm no other notable company is squatting on the handle with brand confusion risk
+- [ ] Check the social channels that matter directly or with a current multi-platform availability service
+- [ ] Confirm no notable company creates a handle or brand-confusion risk; record the source and date checked

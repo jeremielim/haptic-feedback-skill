@@ -1,6 +1,6 @@
 ---
 name: cross-platform-haptic-design
-description: Design, implement, or review haptic feedback for Apple platforms and Meta Horizon OS. Use for Core Haptics, Apple system haptics, Meta Quest controller haptics, multimodal timing, accessibility, or physical-device haptic testing.
+description: Design, implement, or review haptic feedback for Apple platforms and Meta Horizon OS. Use for Core Haptics, Apple system haptics, Meta Quest controller haptics, multimodal timing, accessibility, or physical-device haptic testing. Do not use for general animation, sound design, or platform-agnostic UX feedback.
 ---
 
 # Cross-Platform Haptic Design
@@ -8,6 +8,8 @@ description: Design, implement, or review haptic feedback for Apple platforms an
 Design haptics as semantic, multimodal feedback integrated with the interaction.
 
 Read [references/best-practices.md](references/best-practices.md) before proposing, implementing, or reviewing a haptic system.
+
+Treat the reference as design guidance. Before implementation, verify current platform APIs and hardware capability requirements in the linked primary documentation; record the checked date and source when this affects the recommendation.
 
 ## Workflow
 

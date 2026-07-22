@@ -1,0 +1,67 @@
+{
+  "skill": "game-designer",
+  "trials": 3,
+  "clean_session": true,
+  "cases": [
+    {
+      "id": "new-concept",
+      "prompt": "Use the game-designer skill to help me create a tabletop game about rival weather witches.",
+      "should_trigger": true,
+      "expected_outcomes": ["Begins from player feeling or another earliest missing design decision.", "Uses one focused question only when needed."]
+    },
+    {
+      "id": "focused-opposition",
+      "prompt": "My cooperative game has players collecting antidotes before a spreading fog reaches town. Improve the opposition and decision depth.",
+      "should_trigger": true,
+      "expected_outcomes": ["Starts at opposition and decisions rather than restarting the framework.", "Identifies meaningful choices and flow risks."]
+    },
+    {
+      "id": "complete-brief-rules-sheet",
+      "prompt": "Create a one-page rules sheet for a 2–4 player, 20-minute card game where rival botanists race to grow five rare plants while pests destroy exposed crops.",
+      "should_trigger": true,
+      "expected_outcomes": ["Produces the requested rules sheet without requiring a full interview.", "Labels material assumptions or open questions."]
+    },
+    {
+      "id": "complete-package",
+      "prompt": "Create the complete URF Academy design package for a light competitive game about rescuing lost robots in a space station.",
+      "should_trigger": true,
+      "expected_outcomes": ["Uses the full package structure.", "Keeps game feeling, goal, opposition, theme, and mechanics coherent."]
+    },
+    {
+      "id": "uploaded-module-priority",
+      "prompt": "Using the uploaded URF Academy module, revise my game's phase 3 opposition.",
+      "should_trigger": true,
+      "expected_outcomes": ["Treats the uploaded material as the source of truth.", "Does not make unsupported claims about the framework."]
+    },
+    {
+      "id": "prototype-scope",
+      "prompt": "Assess whether this asymmetric dungeon-crawl card game can be paper-prototyped this weekend.",
+      "should_trigger": true,
+      "expected_outcomes": ["Assesses interaction and prototype complexity.", "Offers focused revisions rather than restarting unrelated phases."]
+    },
+    {
+      "id": "weak-goal",
+      "prompt": "Our game ends whenever everyone feels done. Help us make the goal more interesting.",
+      "should_trigger": true,
+      "expected_outcomes": ["Explains the goal problem constructively.", "Proposes a decision-producing alternative and subgoals."]
+    },
+    {
+      "id": "engine-code-negative",
+      "prompt": "Write a Unity C# character-controller script with jumping and slope handling.",
+      "should_trigger": false,
+      "expected_outcomes": ["Does not apply the URF design framework."]
+    },
+    {
+      "id": "production-negative",
+      "prompt": "Make a Jira sprint plan for a game team's next two weeks.",
+      "should_trigger": false,
+      "expected_outcomes": ["Does not apply the URF design framework."]
+    },
+    {
+      "id": "fiction-negative",
+      "prompt": "Write a 500-word fantasy story about a witch and a storm.",
+      "should_trigger": false,
+      "expected_outcomes": ["Does not apply the URF design framework."]
+    }
+  ]
+}

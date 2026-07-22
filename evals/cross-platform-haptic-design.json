@@ -1,0 +1,67 @@
+{
+  "skill": "cross-platform-haptic-design",
+  "trials": 3,
+  "clean_session": true,
+  "cases": [
+    {
+      "id": "apple-confirmation",
+      "prompt": "Design haptics for an iPhone checkout confirmation.",
+      "should_trigger": true,
+      "expected_outcomes": ["Maps a semantic confirmation or success event to an Apple-appropriate effect.", "Includes fallback and physical-device test status."]
+    },
+    {
+      "id": "quest-grab",
+      "prompt": "Review the controller feedback when a player grabs and releases a heavy object in Meta Horizon OS.",
+      "should_trigger": true,
+      "expected_outcomes": ["Addresses controller origin, repetition, interruption, and fatigue.", "Distinguishes semantic intent from actuator-specific feel."]
+    },
+    {
+      "id": "cross-platform-boundary",
+      "prompt": "Specify cross-platform haptics for a slider reaching a hard limit on iPhone and Quest.",
+      "should_trigger": true,
+      "expected_outcomes": ["Defines one boundary semantic token with platform adaptations.", "Coordinates haptics with visual and audio onset."]
+    },
+    {
+      "id": "hardware-unavailable",
+      "prompt": "Propose haptics for a Vision Pro prototype, but I only have simulator access.",
+      "should_trigger": true,
+      "expected_outcomes": ["Marks physical-device validation as pending.", "Provides a concrete physical-device test plan without claiming tactile approval."]
+    },
+    {
+      "id": "accessibility-review",
+      "prompt": "Audit this mobile game haptic system for accessibility and repeated-action fatigue.",
+      "should_trigger": true,
+      "expected_outcomes": ["Ranks findings by accessibility and fatigue risk.", "Requires the experience to remain understandable without haptics."]
+    },
+    {
+      "id": "overlap-cancellation",
+      "prompt": "How should a Quest app handle haptics when a continuous collision effect is interrupted by a menu opening?",
+      "should_trigger": true,
+      "expected_outcomes": ["Defines cancellation behavior.", "Avoids overlapping or lingering continuous feedback."]
+    },
+    {
+      "id": "current-api-check",
+      "prompt": "Implement current Core Haptics code for a success notification.",
+      "should_trigger": true,
+      "expected_outcomes": ["Verifies current primary documentation before relying on API details.", "States implementation and hardware constraints."]
+    },
+    {
+      "id": "general-animation-negative",
+      "prompt": "Make this button animation feel more satisfying with a spring.",
+      "should_trigger": false,
+      "expected_outcomes": ["Does not apply the haptic-design workflow."]
+    },
+    {
+      "id": "sound-design-negative",
+      "prompt": "Create a short success sound for a desktop application.",
+      "should_trigger": false,
+      "expected_outcomes": ["Does not apply the haptic-design workflow."]
+    },
+    {
+      "id": "generic-ux-negative",
+      "prompt": "Review the color contrast of a web settings screen.",
+      "should_trigger": false,
+      "expected_outcomes": ["Does not apply the haptic-design workflow."]
+    }
+  ]
+}

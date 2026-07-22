@@ -1,6 +1,6 @@
 ---
 name: naming
-description: Guide naming for companies, products, features, screens, design systems, component libraries, and creative projects. Use to generate, evaluate, shortlist, validate, choose, or regain confidence in names, and for brand positioning, competitive naming analysis, or naming systems.
+description: Guide naming for companies, products, features, screens, design systems, component libraries, and creative projects. Use to generate, evaluate, shortlist, validate, choose, or regain confidence in names, and for brand positioning, competitive naming analysis, or naming systems. Do not use for general marketing copy, final trademark clearance, or legal advice.
 ---
 
 # Naming
@@ -43,6 +43,17 @@ Carry these decisions across phases:
 
 Treat user-provided facts as fixed until the user changes them. Mark assumptions and unverified
 availability checks explicitly.
+
+## Evidence and Provenance
+
+Treat this method as an adaptation of Willem Van Lancker's naming framework, not legal or market
+clearance guidance. Verify time-sensitive claims—trademarks, domains, handles, competitors, and cultural
+usage—from current sources, record the source and checked date, and keep their status separate from
+creative judgment.
+
+Do not state a specific trademark, company, domain, handle, price, or availability claim from memory.
+When current research is unavailable or was not requested, mark that evidence `not researched` rather
+than inferring a conflict or availability result.
 
 ## Calibrate the Work
 

@@ -23,8 +23,9 @@ Then apply the **MMR test**:
 - **Range** — Can it grow with the named thing?
 
 Keep candidates that are strong on at least two MMR axes unless a hard constraint eliminates them.
-Run quick reality checks for obvious trademark conflicts, pronunciation, slang, translation, and
-competitive camouflage. Record these as preliminary checks, not final clearance.
+For trademark, competitor, domain, handle, slang, or translation claims, use current sources and record
+them as preliminary checks, not final clearance. When research is unavailable or outside the requested
+scope, mark the check `not researched`; do not infer an external fact from memory.
 
 ## Shortlist Size
 

@@ -1,0 +1,67 @@
+{
+  "skill": "naming",
+  "trials": 3,
+  "clean_session": true,
+  "cases": [
+    {
+      "id": "blank-company-brief",
+      "prompt": "Help me name a company that makes lightweight tools for independent bookstores.",
+      "should_trigger": true,
+      "expected_outcomes": ["Starts by building a naming brief from missing information.", "Does not prematurely present a ranked shortlist."]
+    },
+    {
+      "id": "design-system-exploration",
+      "prompt": "Generate a broad candidate pool for a friendly but precise design system used by a healthcare company.",
+      "should_trigger": true,
+      "expected_outcomes": ["Generates multiple territories and name types.", "Keeps ranking and elimination out of exploration."]
+    },
+    {
+      "id": "single-name-evaluation",
+      "prompt": "Evaluate the name 'Lattice' for a developer platform that manages feature flags.",
+      "should_trigger": true,
+      "expected_outcomes": ["Uses both distillation and validation criteria.", "Labels market, domain, and trademark checks as not researched unless current sources are actually checked.", "Does not make specific competitor or trademark claims from memory."]
+    },
+    {
+      "id": "shortlist-validation",
+      "prompt": "Compare these finalists for a climate-data product: Ember, Northstar, and Vireo.",
+      "should_trigger": true,
+      "expected_outcomes": ["Produces comparable strengths, weaknesses, and evidence statuses.", "Separates creative judgment from legal and availability claims."]
+    },
+    {
+      "id": "domain-research",
+      "prompt": "Which domain strategy should we use for the selected name 'Peregrine' for a B2B security company?",
+      "should_trigger": true,
+      "expected_outcomes": ["Treats domains as current, time-sensitive research.", "Records source and checked date for any availability or price claim."]
+    },
+    {
+      "id": "stewardship",
+      "prompt": "Create a naming stewardship guide for our chosen component-library name, Halo.",
+      "should_trigger": true,
+      "expected_outcomes": ["Covers canonical use, architecture, ownership, and review triggers.", "Includes code, package, Figma, documentation, and spoken-use forms."]
+    },
+    {
+      "id": "legal-boundary",
+      "prompt": "Can you give final legal clearance for our brand name in the United States?",
+      "should_trigger": false,
+      "expected_outcomes": ["Does not present the naming skill as legal advice or final clearance."]
+    },
+    {
+      "id": "marketing-copy-negative",
+      "prompt": "Write a homepage headline and three feature bullets for a payroll product.",
+      "should_trigger": false,
+      "expected_outcomes": ["Does not apply the naming-phase workflow."]
+    },
+    {
+      "id": "contract-negative",
+      "prompt": "Draft a trademark assignment agreement for my company.",
+      "should_trigger": false,
+      "expected_outcomes": ["Does not present the naming skill as legal advice or final clearance."]
+    },
+    {
+      "id": "code-negative",
+      "prompt": "Implement a React component named NameCard.",
+      "should_trigger": false,
+      "expected_outcomes": ["Does not apply the naming-phase workflow."]
+    }
+  ]
+}

@@ -7,7 +7,9 @@ with five deliverables.
 
 ## Deliverables to Produce
 
-Generate all five in a single response, clearly separated by headers.
+Generate all five deliverables in a single response only when the user requests the complete package.
+When the user requests one deliverable, produce that deliverable and identify any assumptions or open
+questions instead of requiring the full package.
 
 ---
 
