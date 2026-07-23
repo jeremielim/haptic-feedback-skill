@@ -14,6 +14,7 @@ To install one skill, use its exact name:
 
 ```bash
 npx skills@latest add jeremielim/skills --skill cross-platform-haptic-design
+npx skills@latest add jeremielim/skills --skill cognitive-bias-design
 npx skills@latest add jeremielim/skills --skill game-designer
 npx skills@latest add jeremielim/skills --skill naming
 ```
@@ -21,6 +22,7 @@ npx skills@latest add jeremielim/skills --skill naming
 ## Skills
 
 - [`cross-platform-haptic-design`](skills/cross-platform-haptic-design/SKILL.md) — Design and review Apple and Meta Horizon OS haptics.
+- [`cognitive-bias-design`](skills/cognitive-bias-design/SKILL.md) — Identify, evaluate, and ethically apply human biases to design decisions.
 - [`game-designer`](skills/game-designer/SKILL.md) — Develop an original game with the URF Academy game-design framework.
 - [`naming`](skills/naming/SKILL.md) — Generate, assess, and validate names for brands, products, and design systems.
 

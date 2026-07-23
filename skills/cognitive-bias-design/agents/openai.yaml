@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cognitive Bias Design"
+  short_description: "Audit and improve decisions through human biases"
+  default_prompt: "Use $cognitive-bias-design to audit this design decision and recommend ethical improvements."
